@@ -178,3 +178,74 @@
     background: #205d3b;
 
 }
+<<<<<<< Updated upstream
+=======
+
+/* FEEDBACK PAGE */
+
+.feedback-section {
+    max-width: 650px;
+    margin: auto;
+    padding: 60px 25px;
+}
+
+.feedback-box {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #ddd;
+}
+
+.feedback-box h2 {
+    color: #286447;
+    margin-bottom: 20px;
+}
+
+.feedback-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-box label {
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+.feedback-box input,
+.feedback-box textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-family: Arial, sans-serif;
+}
+
+.feedback-box button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #2e8053;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.feedback-box button:hover {
+    background: #205d3b;
+}
+
+.contact-section {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.contact-section h2 {
+    color: #286447;
+}
+
+@media (max-width: 768px) {
+    .feedback-section {
+        padding: 30px 15px;
+    }
+}
+>>>>>>> Stashed changes
