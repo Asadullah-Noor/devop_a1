@@ -1,0 +1,40 @@
+
+/* HOME PAGE */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #e5f1e7, #fff0d9);
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #2e8053;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.tagline {
+    color: #2e8053;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #2e8053;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background: #205d3b;
+}
