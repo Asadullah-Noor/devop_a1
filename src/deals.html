@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Bites | Deals</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<header>
+    <h2 class="logo">Campus <span>Bites</span></h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a class="active" href="deals.html">Deals</a>
+        <a href="order.html">Order</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+</header>
+
+<section class="page-title">
+    <h1>Today's Special Deals</h1>
+    <p>Enjoy more food at affordable prices!</p>
+</section>
+
+<section class="container">
+    <div class="cards">
+        <div class="card deal">
+            <h2>Breakfast Combo</h2>
+            <p>Egg Sandwich + Tea</p>
+            <h3>Rs. 290</h3>
+        </div>
+
+        <div class="card deal">
+            <h2>Burger Combo</h2>
+            <p>Chicken Burger + Fries + Cold Drink</p>
+            <h3>Rs. 650</h3>
+        </div>
+
+        <div class="card deal">
+            <h2>Lunch Combo</h2>
+            <p>Chicken Biryani + Raita + Drink</p>
+            <h3>Rs. 450</h3>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Campus Bites</p>
+</footer>
+
+</body>
+</html>
+
+/* DEALS PAGE */
+
+.deals-section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 25px;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.deal-card {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border-top: 5px solid #f2a64a;
+    box-shadow: 0 4px 15px #ddd;
+    transition: 0.3s;
+}
+
+.deal-card:hover {
+    transform: translateY(-5px);
+}
+
+.deal-card h2 {
+    color: #286447;
+    margin-bottom: 15px;
+}
+
+.deal-card p {
+    color: #666;
+}
+
+.deal-card h3 {
+    color: #2e8053;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .deals-grid {
+        grid-template-columns: 1fr;
+    }
+}
